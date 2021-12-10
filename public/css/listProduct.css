@@ -1,0 +1,13 @@
+.danhsachsp {
+  margin: 0;
+  margin-left: 1rem;
+  /* width: auto; */
+  /* min-width: 83.33333333%; */
+}
+.dexuatitem .sanpham {
+  grid-template-columns: repeat(5, auto);
+}
+
+#hero .hero-list {
+  max-height: 460px;
+}

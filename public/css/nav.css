@@ -1,0 +1,106 @@
+.error {
+  color: red;
+  display: block;
+}
+
+#update {
+  z-index: 1000;
+  position: fixed;
+  font-size: 1.6rem;
+  background: white;
+  /* max-width: 50%; */
+  min-width: 760px;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%); */
+  transform: translateX(-50%) translateY(-50%);
+  padding: 1rem;
+}
+#update input {
+  font-size: 1.4rem;
+}
+#update button {
+  font-size: 1.4rem;
+}
+#update #change_pass input[type="submit"],
+#update #update-tt input[type="submit"] {
+  margin: 1rem 0;
+}
+
+#update #change_pass {
+  display: none;
+}
+#update .img {
+  overflow: hidden;
+}
+
+#update .img img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+.btn-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#top .icon img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+#top .icon .username {
+  font-weight: 500;
+}
+
+#top .icon .user-img-name {
+  cursor: pointer;
+  position: relative;
+}
+
+#top .icon .user-img-name .list {
+  z-index: 50;
+  position: absolute;
+
+  flex-direction: column;
+  border: 1px solid rgb(224, 224, 224);
+  min-width: 180px;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  display: none;
+  padding: 0.5em 0.5em 0.5em;
+}
+
+#top .icon .user-img-name .list button {
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+#top .icon .user-img-name .list button:hover {
+  color: red;
+}
+
+#top .icon .user-img-name .list a {
+  padding-left: 1rem;
+}
+
+#top .icon .user-img-name:hover > .list {
+  display: flex;
+}
+#phu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  display: none;
+  background: rgba(194, 194, 194, 0.692);
+}
+#update {
+  display: none;
+}

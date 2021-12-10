@@ -1,0 +1,24 @@
+.sanpham {
+  display: flex;
+  flex-direction: column;
+}
+.sanpham img {
+  max-width: 260px;
+}
+h2 {
+  color: rgba(0, 0, 0, 0.4);
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.sanpham .sp {
+  padding: 20px;
+  border-bottom: 2px solid rgba(153, 153, 153, 0.514);
+  font-size: 16px;
+}
+.sanpham .sp:hover {
+  color: black;
+}
+.sanpham .sp .gia .don_gia {
+  color: #ee4d2d;
+}
